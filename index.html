@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        html{
+    color-scheme: dark;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+color: rgb(172, 172, 178);
+}
+img{
+    width: 100%;
+    border-radius:50%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border: 1.5vw solid rgb(73, 66, 66) ;
+}
+.main-container{
+    display: flex;
+    gap: 6vw;
+    background-color: rgba(57, 47, 47, 0.23);
+    padding: 4vw 6vw;
+    align-items: center;
+    border-radius: 4vw;
+    margin:5vw;
+}
+.profile-div{
+    flex: 1;
+}
+.content-div{
+    padding: 0px 1vw 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    flex: 2;
+}
+.name{
+    font-size: 4vw;
+    font-weight: bolder;
+}
+.info{
+    font-size: 1.5vw;
+}
+@media(max-width:600px){
+    .main-container{
+        flex-direction: column;
+    }
+    .name{
+        font-size: 24px;
+    }
+    .info{
+        font-size: 15px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="profile-div">
+            <img src="./images/molooz red.jpg" alt="dp">
+        </div>
+        <div class="content-div">
+            <div class="name">Akhilanjali Saranki</div>
+            <div class="info">
+                Meet the epitome of leadership and grace, our formidable lady boss. With an air of confidence that commands respect and a demeanor that exudes sophistication, she effortlessly navigates the corporate landscape. Her sharp intellect is matched only by her unwavering determination to break barriers and shatter glass ceilings. A visionary with a strategic mind, she transforms challenges into opportunities, inspiring her team to reach new heights. Clad in power suits that mirror her strength, she is a trailblazer, setting the standard for excellence in both attitude and aptitude. 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
